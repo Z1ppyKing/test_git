@@ -1,0 +1,65 @@
+Myroslav@NoteBook MINGW64 /d/Academi/Git/test_git (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+________________________________________________________________
+Myroslav@NoteBook MINGW64 /d/Academi/Git/test_git (main)
+$ git branch
+  feature_branch
+* main
+________________________________________________________________
+Myroslav@NoteBook MINGW64 /d/Academi/Git/test_git (main)
+$ git log
+commit 1e287b7db6fbbc1b0ac3fee19c4d8bf7d65407b9 (HEAD -> main, origin/main, origin/HEAD)
+Author: Z1ppy <133902922+Z1ppyKing@users.noreply.github.com>
+Date:   Sat Feb 1 13:41:33 2025 +0200
+
+    create style.css
+
+commit 90d0adbc4a76d2c21aff509bcb32b22e93aacd14
+Merge: 927b781 5203f10
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:37:36 2025 +0200
+
+    Branches merged, conflict solved
+
+commit 927b7810901feb4d66625507ada011a547b87b07
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:34:12 2025 +0200
+
+    Added different feature 1
+
+commit 5203f10492ea341f392be276ff2e784d23a8f3d3 (origin/feature_branch, feature_branch)
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:28:41 2025 +0200
+
+    Added feature 2
+
+commit 3eff51d5ff371c0fd1023ce68ea028a00cbe844b
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:28:12 2025 +0200
+
+    Added feature 1
+
+commit dd8124c351f54796c434c9333f084e0933e25357
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:26:43 2025 +0200
+
+    Added and changed index.html file
+
+commit 373ea34e0a034b1dc825426e9be947eb73b4c1fd
+Author: Z1ppy <133902922+Z1ppyKing@users.noreply.github.com>
+Date:   Sat Feb 1 13:23:54 2025 +0200
+
+    Initial commit
+__________________________________________________________
+Myroslav@NoteBook MINGW64 /d/Academi/Git/test_git (main)
+$ git log --merges
+commit 90d0adbc4a76d2c21aff509bcb32b22e93aacd14
+Merge: 927b781 5203f10
+Author: Myroslav <msulim38@gmail.com>
+Date:   Sat Feb 1 13:37:36 2025 +0200
+
+    Branches merged, conflict solved
